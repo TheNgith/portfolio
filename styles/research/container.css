@@ -11,6 +11,6 @@
 @media (max-width: 700px) {
     .research_container {
         flex-direction: column;
-        padding: 40px;
+        padding: 30px;
     }
 }
