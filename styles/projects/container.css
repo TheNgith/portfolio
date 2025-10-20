@@ -21,5 +21,6 @@
   #project-container {
     /* ignore JS-provided min-height on small screens */
     --js-min-height: auto;
+    padding: 0px;
   }
 }
