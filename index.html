@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="global_styles.css">
+    <link rel="stylesheet" href="styles/__includes__.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+    <script src="parse_project_csv.js" defer></script>
+</head>
+<body>
+    <div class="global_container">
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="/" id="navbar_name">Thinh Nguyen</a>
+
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <ul class="navbar_menu">
+                    <li class="navbar_item"><a href="/" class="navbar_link">CV</a></li>
+                    <li class="navbar_item"><a href="/" class="navbar_link">Research</a></li>
+                    <li class="navbar_item"><a href="/" class="navbar_link">Projects</a></li>
+                    <li class="navbar_btn"><a href="/" class="button">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero_container">
+            <div class="hero_name">Thinh Nguyen</div>
+            <div class="hero_subtitles">
+                University of South Florida | Class 2026
+            </div>
+        </div>
+        <div class="narration">
+            Hi, I’m Thinh Nguyen, an undergraduate student in Computer Engineering with a minor in Mathematics at the University of South Florida.
+            My interests lie at the intersection of machine learning, high-performance computing, and hardware acceleration. 
+            <br> <br>I’ve worked as a Machine Learning Engineer Intern at USF’s High-Performance Computing Lab, where I helped develop an accelerated genomic sequence alignment system. 
+            <br> <br>I enjoy designing efficient computational pipelines - whether it’s optimizing data processing in Python and C/CUDA or exploring low-level system design through Verilog and FPGA projects. 
+            I’m driven by curiosity for how software and hardware can collaborate to push the boundaries of performance and intelligence.
+        </div>
+        <div class="research_container">
+            <div class="research_content_container">
+                <div class="research_title_container">
+                    <div class="research_title">My research involve</div>
+                    <div class="research_topics_alternator" id="research-topics">test</div>
+                </div>
+                <div class="research_summary">
+                    September 2023, I had a chance to join Professor Yicheng Tu's lab at USF, where I set off for the research journey in high-performance computing and machine learning. 
+                    <br><br>I have worked on developing and optimizing pipelines for sequence alignment and model evaluation, gaining hands-on experience with parallel computing, 
+                    GPU acceleration, and data-driven experimentation. 
+                    Through these projects, I have learned how to balance algorithmic design with system efficiency, 
+                    and I became deeply interested in the intersection of machine learning, high-performance computing, and computational biology.
+                </div>
+                    <a href="/" class="button">
+                        Read more
+                    </a>
+            </div>
+            <div class="research_image"></div>
+        </div>
+        <div class="project_container" id="project-container">
+            <div class="project_title_container">
+                <div class="project_title">My projects about</div>
+                <div class="project_topics_alternator" id="project-topics">Machine Learning</div>
+                <div class="topic_picker"></div>
+            </div>
+            <div class="project_list_container">
+                <div class="project_list" topic="Machine Learning"></div>
+                <div class="project_list" topic="Data Engineering"></div>
+                <div class="project_list" topic="Computer Architecture"></div>
+                <div class="project_list" topic="Computer System Design"></div>
+            </div>
+        </div>
+        <div class="footer_container">
+            <div class="footer_message_explore_container">
+                <div class="footer_message_container">
+                    <div class="footer_getintouch">LET'S GET IN TOUCH</div>
+                    <div class="footer_links_contaier">
+                        <a href="/" class="footer_link">GitHub</a>
+                        <a href="/" class="footer_link">Linkedin</a>
+                        <a href="/" class="footer_link">Email</a>
+                    </div>
+                    <div class="footer_keywords">Curious learner | Hands-on researcher | 
+                        High-performance computing enthusiast | Machine learning engineer. 
+                        Hardware–software bridge | Motivated explorer | Problem solver 
+                        </div>
+                </div>
+                <div class="footer_explore_container">
+                    <div class="footer_explore_title">EXPLORE FURTHER</div>
+                    <div class="footer_explore_links_container">
+                        <a href="/" class="footer_explore_link">CV</a>
+                        <a href="/" class="footer_explore_link">Research</a>
+                        <a href="/" class="footer_explore_link">Projects</a>
+                    </div>
+                    <div class="footer_explore_quote_container">
+                        <div class="footer_explore_quote_title">I'm seeking</div>
+                        <div class="footer_explore_quote_content">Fulltime ML Engineer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_builtwith">Built with HTML, CSS, Javascript | 2025</div>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

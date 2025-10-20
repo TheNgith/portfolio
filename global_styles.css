@@ -1,0 +1,39 @@
+:root {
+      --primary-color: black;
+      --font-size-base: 16px;
+      --global-margin: 40px;
+      --div-padding: 10px;
+    }
+
+html { font-size: 20px; }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.global_container {
+    display: flex;
+    transition: all 0.3s ease;
+    flex-direction: column; /* This stacks items vertically */
+    gap: 30px;
+    margin: 0 var(--global-margin);
+    z-index: 0;
+    align-items: center;
+    min-height: 100vh;  /* ensures full viewport height */
+}
+
+@media (max-width: 700px) {
+  html { font-size: 22px; } /* 1rem = 14px on mobile */
+  
+  .global_container {
+    margin: 0 15px;
+  }
+}
+
+
+/* div {
+  border: 1px solid black;
+} */

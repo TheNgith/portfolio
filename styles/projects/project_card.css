@@ -1,0 +1,42 @@
+.project_card {
+  width: 40vh;
+  height: 60vh;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.2),
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Title section (no border radius) */
+.project_card_name {
+  color: black;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+/* Image section (16:9 aspect ratio) */
+.project_card_img {
+  width: calc(100% - 20px);
+  aspect-ratio: 16 / 9;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #ccc;
+
+}
+
+/* Content box that stretches to fill remaining space */
+.project_card_content {
+  flex: 1;
+  margin: 0px 10px 10px 10px;
+  border-radius: 15px;
+  overflow: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  color: black;
+}

@@ -1,0 +1,11 @@
+.footer_explore_container {
+    flex: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer_explore_title {
+    color: black;
+}

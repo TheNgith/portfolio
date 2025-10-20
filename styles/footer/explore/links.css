@@ -1,0 +1,21 @@
+.footer_explore_links_container {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    /* opacity: 0; */
+}
+
+.footer_explore_link {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    min-height: 7vh;
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.2),
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,23 @@
+.footer_explore_quote_container {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    min-height: 15vh;
+    border-radius: 15px;
+    padding: 10px;
+    /* opacity: 0; */
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.2),
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.footer_explore_quote_title {
+    color: black;
+    padding: 10px;
+}
+
+.footer_explore_quote_content {
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+}

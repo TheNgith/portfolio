@@ -1,0 +1,27 @@
+.project_list_container {
+  position: relative;
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden; /* optional, hides inactive lists if needed */
+}
+
+.project_list {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  transform: translateY(-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.project_list.active {
+  opacity: 1;
+  pointer-events: auto;
+}

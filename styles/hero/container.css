@@ -1,0 +1,23 @@
+.hero_container {
+    margin-top: -20px;
+    color: black;
+    height: calc(100vh - 80px - 25px - 10px);
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+    border-radius: 15px;
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.2),
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
+
+    background-image: url('../../images/sky.jpg');
+    background-position: center;   /* centers the crop */
+    background-size: cover;        /* fill container, crop overflow */
+    background-repeat: no-repeat;  /* no tiling */
+}
+@media screen and (max-width: 700px) {
+    .hero_container {
+        margin-top: 0px;
+        height: calc(100vh - 80px - 25px - 10px - 40px);
+    }
+}
