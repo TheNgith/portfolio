@@ -1,7 +1,7 @@
-@import url(/portfolio/styles/navbar/__includes__.css);
-@import url(/portfolio/styles/hero/__includes__.css);
-@import url(/portfolio/styles/narration/__includes__.css);
-@import url(/portfolio/styles/research/__includes__.css);
-@import url(/portfolio/styles/projects/__includes__.css);
-@import url(/portfolio/styles/footer/__includes__.css);
-@import url(/portfolio/styles/utils/__includes__.css);
+@import url(navbar/__includes__.css);
+@import url(hero/__includes__.css);
+@import url(narration/__includes__.css);
+@import url(research/__includes__.css);
+@import url(projects/__includes__.css);
+@import url(footer/__includes__.css);
+@import url(utils/__includes__.css);
