@@ -39,8 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "High-performance computing",
     "Inference acceleration"
   ]);
-
-  toggleMenu();
 });
 
 
