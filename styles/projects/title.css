@@ -29,3 +29,9 @@
 
     height: fit-content;
 }
+
+@media (max-width: 700px) {
+    .project_title_container {
+        padding-left: 0px;
+    }
+}

@@ -6,6 +6,10 @@
     margin: 0px;
   }
 
+  .project_topic {
+    padding-left: 0;
+  }
+
 
   .project_list {
     flex-direction: column;
