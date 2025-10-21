@@ -1,26 +1,10 @@
 .project_container {
-    min-height: var(--js-min-height, auto);
     display: flex;
-    flex: 2;
-    justify-items: space-between;
+    flex-direction: column;
+    gap: 20px;
     
     border-radius: 15px;
-    padding: 10px;
+    /* padding: 10px 0px; */
+    /* width: var(--section-container-width); */
     width: 100%;
-
-    transition: max-height 0.4s ease; /* optional for smooth resize */
-    overflow: hidden; /* hide short list gaps if needed */
-
-    box-shadow:
-        0 8px 30px rgba(0, 0, 0, 0.2),
-        inset 0 0 20px rgba(255, 255, 255, 0.1);
-
-}
-
-@media (max-width: 700px) {
-  #project-container {
-    /* ignore JS-provided min-height on small screens */
-    --js-min-height: auto;
-    padding: 0px;
-  }
 }

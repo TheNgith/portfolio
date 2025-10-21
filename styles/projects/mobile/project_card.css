@@ -1,7 +1,12 @@
 @media screen and (max-width: 700px) {
   .project_card {
-    width: 90%;
+    /* width: var(--section-container-width); */
+    width: 100%;
     min-height: 70vh;
-    padding: 10px;
+    padding: 15px;
+    margin: 0px 0px 30px 0px;
+    /* margin: 0px; */
+    /* margin-left: calc((100vw - var(--section-container-width))/2);
+    margin-right: calc((100vw - var(--section-container-width))/2); */
   }
 }

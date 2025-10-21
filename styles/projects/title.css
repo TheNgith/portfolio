@@ -1,15 +1,18 @@
 .project_title_container {
     flex: 1;
     display: flex;
-    padding: 10px;
+    padding-left: calc((100vw - var(--section-container-width))/2 + 20px);
     align-items: center;
     justify-items: left;
+    margin-top: 20px;
 }
 
 .project_title {
     color: black;
     text-wrap: nowrap;
-    font-size: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
 }
 
 .project_topics_alternator {

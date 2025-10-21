@@ -1,27 +1,27 @@
 .project_list_container {
-  position: relative;
-  flex: 2;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  overflow: hidden; /* optional, hides inactive lists if needed */
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.project_topic {
+  padding-left: calc((100vw - var(--section-container-width))/2 + 20px);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .project_list {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  transform: translateY(-50%);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.8s ease-in-out;
-}
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  /* pointer-events: none; */
 
-.project_list.active {
-  opacity: 1;
-  pointer-events: auto;
+  padding-left: calc((100vw - var(--section-container-width))/2 - 5px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow: auto visible;
+  -webkit-overflow-scrolling: touch; /* smooth on iOS */
+  overscroll-behavior-x: contain;    /* keep scroll contained */
+  touch-action: pan-x;               /* allow horizontal swipe */
 }

@@ -1,11 +1,11 @@
 .narration {
+    width: var(--section-container-width);
     font-size: 1rem;
     color: black;
     border-radius: 15px;
     padding: 20px;
     justify-items: center;
     align-content: center;
-    width: 100%;
 
     /* box-shadow:
         0 8px 30px rgba(0, 0, 0, 0.2),

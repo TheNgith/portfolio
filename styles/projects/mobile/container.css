@@ -1,7 +1,6 @@
 @media screen and (max-width: 700px) {
     .project_container {
-        flex-direction: column;
-        min-height: 280vh;
+        width: 100%;
     }
 }
 
